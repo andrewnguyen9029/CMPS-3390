@@ -2,9 +2,11 @@ Individual Cintribution
 
 February 28, 2013   Presentation 
 
-March 07, 2013      Research on getting the API from OpenWeather or other weather API 
+March 07, 2013      Research Different Framework: Flutter and React Native 
+                        -Which one is best support an API 
+
+March 14, 2023       Research on getting the API from OpenWeather or other weather API 
                         -Test the API 
-March 14, 2023
 
 March 21, 2023
 
@@ -17,3 +19,7 @@ April 11, 2023
 April 18, 2023
 
 April 25, 2023
+
+May 
+
+May 
