@@ -15,12 +15,12 @@ March 28, 2023      Troubleshooting and debugging
 April 04, 2023      Switching from mobile to desktop application 
                         - React. js 
 
-April 11, 2023
+April 11, 2023      Implenting search bar and GRO API 
 
-April 18, 2023
+April 18, 2023      Implenting weather API
 
-April 25, 2023
+April 25, 2023      
 
-May 02, 2023
+May 02, 2023        
 
-May 09,2023
+May 09,2023         
