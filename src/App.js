@@ -40,7 +40,7 @@ console.log(forecast);
 
   return (
     <div className="container">
-       <p className="title">Weather </p>
+       <p className="title">WEATHER</p>
       <Search onSearchChange={handleOnSearchChnage}/>
       {currentWeather &&<CurrentWeather data={currentWeather}/>}
       {forecast &&<Forecast data={forecast}/>}

@@ -1,10 +1,15 @@
 .container {
   max-width: 1080px;
   margin: 20px auto;
+  color: #412920;
 }
 
 .title{
-  font-size: 35px;
+  color: #664229;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Palatino, Verdana, Optima, Arial;
+  letter-spacing: 5px;
   margin: 20px auto;
   padding: 15px;
   text-align: center;

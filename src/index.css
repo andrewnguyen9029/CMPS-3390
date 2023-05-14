@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  font-family: "Roboto", "Arial !important";
+  font-family: Palatino, Verdana, Optima, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(220, 237, 243);
+  background-color: #d7c6b6;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Palatino, Verdana, Optima, Arial;
 }
 
