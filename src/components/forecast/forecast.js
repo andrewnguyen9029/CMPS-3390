@@ -12,7 +12,7 @@ const WEEK_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satu
 
 const Forecast = ({ data }) => {
   const dayInAWeek = new Date().getDay();
-  const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek));
+  const forecastDays = WEEK_DAYS.slice(dayInAWeek - 1, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek - 1));
 
   const groupedData = data.list.reduce((acc, item) => {
     const date = new Date(item.dt_txt).toLocaleDateString();
@@ -29,7 +29,9 @@ const Forecast = ({ data }) => {
     <>
       <label className="titleDL">Daily</label>
       <Accordion allowZeroExpanded>
-        {Object.entries(groupedData).map(([date, { items, maxTemp, minTemp }], idx) => {
+        {Object.entries(groupedData)
+			.slice(0, 5)
+			.map(([date, { items, maxTemp, minTemp }], idx) => {
           return (
             <AccordionItem key={idx}>
               <AccordionItemHeading>
