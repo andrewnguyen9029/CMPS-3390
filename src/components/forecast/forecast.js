@@ -27,7 +27,7 @@ const Forecast = ({ data }) => {
 
   return (
     <>
-      <label className="titleDL">Daily</label>
+      <label className="titleDL">Daily Forecast:</label>
       <Accordion allowZeroExpanded>
         {Object.entries(groupedData)
 			.slice(0, 5)
@@ -51,7 +51,7 @@ const Forecast = ({ data }) => {
                     <label>{Math.round(items[0].main.feels_like)}°F</label>
                   </div>
                   <div className="daily-details-grid-item">
-                    <label>Wind speed:</label>
+                    <label>Wind Speed:</label>
                     <label>{items[0].wind.speed} mph</label>
                   </div>
                   <div className="daily-details-grid-item">
