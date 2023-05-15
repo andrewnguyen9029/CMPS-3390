@@ -12,7 +12,7 @@ function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
 
-  const handleOnSearchChnage = (searchData) => {  
+  const handleOnSearchChange = (searchData) => {  
     //console.log(searchData);
 
     //latitude and longitude
@@ -41,7 +41,7 @@ console.log(forecast);
   return (
     <div className="container">
        <p className="title">WEATHER</p>
-      <Search onSearchChange={handleOnSearchChnage}/>
+      <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather &&<CurrentWeather data={currentWeather}/>}
       {forecast &&<Forecast data={forecast}/>}
       
